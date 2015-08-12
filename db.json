@@ -1,0 +1,104 @@
+{
+  "maps": [
+    {
+      "id": 1,
+      "name": "Basic",
+      "settings": {
+        "tilesX": 100,
+        "tilesY": 100
+      },
+      "tiles": [
+        {
+          "x": 1,
+          "y": 1,
+          "terrain": "grass",
+          "item": "tree",
+          "itemVariation": 4
+        },
+        {
+          "x": 2,
+          "y": 1,
+          "terrain": "grass",
+          "item": "tree",
+          "itemVariation": 1
+        },
+        {
+          "x": 1,
+          "y": 2,
+          "terrain": "grass",
+          "item": "tree",
+          "itemVariation": 2
+        },
+        {
+          "x": 2,
+          "y": 2,
+          "terrain": "grass",
+          "item": "tree",
+          "itemVariation": 2
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "terrain": "grass",
+          "item": "tree",
+          "itemVariation": 3
+        },
+        {
+          "x": 2,
+          "y": 6,
+          "terrain": "grass",
+          "item": "tree",
+          "itemVariation": 2
+        },
+        {
+          "x": 2,
+          "y": 4,
+          "terrain": "grass",
+          "item": "tree",
+          "itemVariation": 2
+        },
+        {
+          "x": 1,
+          "y": 5,
+          "terrain": "grass",
+          "item": "tree",
+          "itemVariation": 2
+        },
+        {
+          "terrain": "grass",
+          "item": "tree",
+          "itemVariation": 4
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "terrain": "grass",
+          "item": "tree",
+          "itemVariation": 2
+        },
+        {
+          "x": 1,
+          "y": 4,
+          "terrain": "grass",
+          "item": "tree",
+          "itemVariation": 3
+        }
+      ]
+    }
+  ],
+  "terrain": [
+    {
+      "id": 1,
+      "type": "grass",
+      "holdsObjects": true,
+      "holdsPlayers": true
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "type": "tree",
+      "passable": false
+    }
+  ]
+}
